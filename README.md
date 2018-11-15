@@ -8,4 +8,4 @@ the terminal or via an ssh connection.
 The software also requires the unicurses unicguard library whitch can be
 install from this repository: https://github.com/derDere/unicguard
 
-![GPIO Control Screenshot](https://i.imgur.com/ANKSJQq.png GPIO Control Screenshot)
+![GPIO_Control_Screenshot](https://i.imgur.com/ANKSJQq.png)
