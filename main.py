@@ -1,8 +1,7 @@
 import RPi.GPIO as G
 from gpio_guard import *
-from unicurses import *
-import json
-from functions import *
+#import json
+from unicguard import *
 
 
 class GPIO:
@@ -13,6 +12,7 @@ class GPIO:
     self.ON = False
     if self.IO != 0:
       G.setup(self.IO, G.OUT)
+      G.output(self.IO, False)
 
   def toggle(self):
     if self.ON:
